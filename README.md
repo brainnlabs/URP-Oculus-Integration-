@@ -53,3 +53,71 @@ Youtube Video:
 + **Choose all Asset** -> **Initialize Converters** -> **Convert Assets**
 
 
+
+
+
+
+
+# Activate Passthrough:
+
+1.- Go to **Window** -> **Rendering** -> **Lighting**
+
+2.- Select **Environment**
+
++ **Skybox Material = None**
+
+3.- Select **OVRCamera** Prefab, then go to the **Inspector**
+
++ Click **Add Component**
++ Type **OVR Passthrough Layer** and Select it.
++ Go to **Compositing**
+    + **Placement = Overlay**
+
+4.- Select **OVRCamera** Prefab, then go to the **Inspector**
+
++ Go to **OVRManager** Script
+
+  + **Quest Features** -> **General**
+
+      + **Passthrough Support = Supported**
+      + **Enable Passthrough = True**
+ 
+  + **Quest Features** -> **Experimental**
+
+      + **Experimental Features Enabled = True**
+      + **Enable Passthrough = True**
+
+5.- Select **OVRCamera** ->  **TrackingSpace** -> **CenterEyeAnchored**, then go to the **Inspector**
+
++ Go to **Camera** Script
+
+  + **Environment**
+    + **Background Type = Solid Color**
+    + **Background = RGBa(0,0,0,0)** (black color with alpha=0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
