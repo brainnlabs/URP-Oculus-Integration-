@@ -53,17 +53,6 @@ Youtube Video:
    +  Select all boxes and click **Initialize Converters**
    +  After finishing click **Convert Assets**
 
-8.- Convert all Oculus Integration Assets made with Built-in to URP
-
-+ **Window** -> **Rendering** -> **Rendering Pipeline Converter**
-+ Drop Down Menu -> **Built-in to URP
-+ **Choose all Asset** -> **Initialize Converters** -> **Convert Assets**
-
-
-
-
-
-
 
 # Activate Passthrough:
 
