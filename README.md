@@ -41,10 +41,17 @@ Youtube Video:
   +  **Scripting Backend = IL2CPP**
   +  **Target Architectures = ARM64**
 
-7.- Modify URP Settings: **UniversalRP-MediumQuality**
++ **Graphics**
+  + **Select Render Pipeline Settings** box
+  + Go to Project Folder and select **UniversalRP-MediumQuality**
+  + Go to Inspector Tab and change **Anti Aliasing (MSAA)=4x**
+  + Drag **UniversalRP-MediumQuality** file to **Select Render Pipeline Settings** box
 
-+ **Quality**
-  + **Anti Aliasing (MSAA) = 4x  
+ 7.- Change all Assets to URP
+   +  Go to **Windows** --> **Rendering** --> **Rendering Pipeline Converter**
+   +  Change drop down menu to **Built-in to URP**
+   +  Select all boxes and click **Initialize Converters**
+   +  After finishing click **Convert Assets**
 
 8.- Convert all Oculus Integration Assets made with Built-in to URP
 
