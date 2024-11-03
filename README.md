@@ -69,6 +69,7 @@ Youtube Video:
 + Go to **Compositing**
     + **Placement = Underlay**
     + **Composition Depth = 1**
+      
 4.- Select **OVRCamera** Prefab, then go to the **Inspector**
 
 + Go to **OVRManager** Script
