@@ -67,8 +67,8 @@ Youtube Video:
 + Click **Add Component**
 + Type **OVR Passthrough Layer** and Select it.
 + Go to **Compositing**
-    + **Placement = Overlay**
-
+    + **Placement = Underlay**
+    + **Composition Depth = 1**
 4.- Select **OVRCamera** Prefab, then go to the **Inspector**
 
 + Go to **OVRManager** Script
